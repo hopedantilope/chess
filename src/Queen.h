@@ -10,4 +10,6 @@ public:
 
     QString type() const override;
     QList<Move>  validMoveList() const override;
+    PieceType getPieceEnum() const override{return QUEEN;}
+
 };

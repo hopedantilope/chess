@@ -13,4 +13,6 @@ public:
 
     // Implement the movement rules for the Pawn
     QList<Move>  validMoveList() const override;
+    PieceType getPieceEnum() const override{return PAWN;}
+
 };
